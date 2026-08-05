@@ -1,6 +1,5 @@
 services:
-db:
-  69-s1-db:
+  db:
     image: postgres:latest
     container_name: 69-s1-db
     environment:
@@ -10,7 +9,7 @@ db:
     ports:
       - "54327:5432"
 
-  69-s1-admin:
+  admin:
     image: dpage/pgadmin4:latest
     container_name: 69-s1-admin
     ports:
