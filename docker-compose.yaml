@@ -18,3 +18,5 @@ db:
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: adminpassword
+    volumes:
+      - ./data-admin:/var/lib/pgadmin
