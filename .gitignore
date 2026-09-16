@@ -1,4 +1,6 @@
 .DS_Store
 data/
+data-admin/
 .env
 pgadmin/
+api.http
